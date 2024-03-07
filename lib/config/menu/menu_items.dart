@@ -39,11 +39,30 @@ const appMenuItems = <MenuItem>[
       title: 'Animated Container',
       subtitle: 'Animaciones en Widgets',
       link: '/animated',
-      icon: Icons.check_box_outline_blank)
-  ,
+      icon: Icons.check_box_outline_blank),
   MenuItem(
       title: 'Ui Controls',
       subtitle: 'Opciones de control',
       link: '/uicontrols',
-      icon: Icons.commit_sharp)
+      icon: Icons.commit_sharp),
+  MenuItem(
+      title: 'App Tutorial',
+      subtitle: 'Tutorial de inicio de la app',
+      link: '/tutorial',
+      icon: Icons.settings_accessibility_outlined),
+  MenuItem(
+      title: 'Infinite Scroll y Refresh',
+      subtitle: 'Imagenes inifinitas',
+      link: '/infinitescroll',
+      icon: Icons.settings_accessibility_outlined),
+  MenuItem(
+      title: 'Counter Riverpod',
+      subtitle: 'counter cliks riverpod',
+      link: '/counterriverpod',
+      icon: Icons.add),
+  MenuItem(
+      title: 'Theme Changer',
+      subtitle: 'cambio de color y temas',
+      link: '/themechanger',
+      icon: Icons.color_lens)
 ];
